@@ -1,0 +1,13 @@
+.jumbotron {
+    
+    background-color: pink;
+}
+body {
+    color: white;
+    text-shadow: 1px 2px 2px rgb(192, 15, 104);
+    background-image: url(https://cdn.statically.io/img/p4.wallpaperbetter.com/wallpaper/239/696/950/painting-colorful-pink-purple-wallpaper-1900c8ad216a9ddb26a7687f401196ed.jpg)
+}
+
+.times {
+    border: 5px solid white;
+}

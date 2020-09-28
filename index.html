@@ -1,14 +1,77 @@
+<!--HTML-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Planner</title>
+  <meta charset="UTF-8" />
+  <meta ne="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!--Styling Ref-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/icon?fily=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?fily=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Daily Planner</title>
 </head>
 
 <body>
-
+  <header class="jumbotron">
+    <h1 class="display-3 text-center">Daily Planner</h1>
+    <p class="text-center"><em>Your personal to do list & schedule</em></p>
+    <p id="currentDay" class="text-center">Today's Date is </p>
+  </header>
+<!-- Time blocks & Text inputs -->
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-2 text-center font-weight-bold">HOUR</div>
+      <div class="col-8 text-center font-weight-bold">TO DO</div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-2 text-center">9:00 AM</div>
+      <input id="nine" class="col-8 form-control" placeholder="To Do" ></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">10:00 AM</div>
+      <input id="ten" class="col-8 form-control text-dark" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">11:00 AM</div>
+      <input id="eleven" class="col-8 form-control" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">12:00 PM</div>
+      <input id="twelve" class="col-8 form-control" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">1:00 PM</div>
+      <input id="one" class="col-8 form-control" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">2:00 PM</div>
+      <input id="two" class="col-8 form-control" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">3:00 PM</div>
+      <input id="three" class="col-8 form-control" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">4:00 PM</div>
+      <input id="four" class="col-8 form-control" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">5:00 PM</div>
+      <input id="five" class="col-8 form-control" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">6:00 PM</div>
+      <input id="six" class="col-8 form-control" placeholder="To Do"></input>
+    </div>
+    <div class="row">
+      <div class="col-2 text-center">7:00 PM</div>
+      <input id="seven" class="col-8 form-control" placeholder="To Do"></input>
+<!--JS-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="script.js"></script>
 </body>
-
 </html>
