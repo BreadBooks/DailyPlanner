@@ -1,13 +1,62 @@
 .jumbotron {
-    
-    background-color: pink;
+  background-color: pink;
 }
 body {
-    color: white;
-    text-shadow: 1px 2px 2px rgb(192, 15, 104);
-    background-image: url(https://cdn.statically.io/img/p4.wallpaperbetter.com/wallpaper/239/696/950/painting-colorful-pink-purple-wallpaper-1900c8ad216a9ddb26a7687f401196ed.jpg)
+  color: white;
+  text-shadow: 1px 2px 2px rgb(192, 15, 104);
+  background-image: url(https://cdn.statically.io/img/p4.wallpaperbetter.com/wallpaper/239/696/950/painting-colorful-pink-purple-wallpaper-1900c8ad216a9ddb26a7687f401196ed.jpg);
+  font-family: 'Comfortaa', cursive;
 }
 
-.times {
-    border: 5px solid white;
+.row {
+  padding: 2px;
+}
+
+textarea {
+  color: White;
+  border: 1px solid white;
+  text-shadow: 1px 2px 2px rgb(192, 15, 104);
+  resize: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+.past {
+  background-color: #d3c4f8;
+  color: white;
+}
+
+.present {
+  background-color: #ff91d5;
+  color: white;
+}
+
+.future {
+  background-color: #7779dd;
+  color: white;
+}
+
+.saveBtn {
+  color: white;
+  text-shadow: 1px 2px 2px rgb(192, 15, 104);
+}
+.clearBtn {
+  padding: 15px;
+}
+
+.btn-danger {
+  box-shadow: 1px 1px 2px 1px rgb(134, 9, 72);
+  padding: 5px;
+  background-color: rgb(252, 27, 102);
+  text-shadow: 1px 1px 2px rgb(100, 4, 52);
+  border: none;
+}
+
+.btn-danger:hover {
+    background-color: rgb(253, 44, 114) !important;
+}
+.btn-danger:active {
+    background-color: rgb(253, 44, 114) !important;
 }
