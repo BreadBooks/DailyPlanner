@@ -1,7 +1,7 @@
 # Daily Planner
 
 ## Description
-A functional planner to manage time, tasks, & goals. Current time is easily read by the user as it is displayed at the top of the page, and is color cordinated to show past, present, & future times. 
+A functional planner to manage time, tasks, & goals. Current time is easily read by the user as it is displayed at the top of the page, and is color coordinated to show past, present, & future times. 
 
 ![Preview](/assets/preview.png)
 
