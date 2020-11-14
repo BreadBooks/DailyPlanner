@@ -19,7 +19,7 @@ A functional planner to manage time, tasks, & goals. Current time is easily read
 To plan and manage your day
 
 ### Want to Contribute? 
-Emailing me at BreadBooks99@gmail.com
+Email me at BreadBooks99@gmail.com
 
 ### Licensing
 
