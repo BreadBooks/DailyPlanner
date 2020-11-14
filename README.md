@@ -4,7 +4,7 @@
 A functional planner to manage time, tasks, & goals. Current time is easily read by the user as it is displayed at the top of the page, and is color cordinated to show past, present, & future times. 
 
 ![Preview](/assets/preview.png)
-)
+
 ## Table of Contents
 * [Title](#title)
 * [Description](#description)
@@ -23,7 +23,7 @@ Emailing me at BreadBooks99@gmail.com
 
 ### Licensing
 
-Licensing link here [MIT](https://choosealicense.com/licenses/MIT).
+Licensing link here [MIT](https://choosealicense.com/licenses/mit/).
 
 ### Questions/Contact Me
 View my GitHub portfolio [Here](https://github.com/BreadBooks)
