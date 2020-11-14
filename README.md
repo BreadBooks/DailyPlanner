@@ -5,14 +5,17 @@ A functional planner to manage time, tasks, & goals. Current time is easily read
 
 ![Preview](/assets/preview.png)
 
+See the Daily Planner in action [here!](https://breadbooks.github.io/DailyPlanner/)
+
 ## Table of Contents
 * [Title](#title)
 * [Description](#description)
 * [Table of Contents](#table-of-contents)
 * [Usage](#usage)
 * [Contributing](#want-to-contribute?)
-* [Questions/Contact Me](#questions/contact-me)
 * [Licensing](#licensing)
+* [Questions/Contact Me](#questions/contact-me)
+
 
 
 ### Usage
