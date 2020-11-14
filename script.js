@@ -2,7 +2,7 @@ $(document).ready(function (event) {
     //storage stuff
     const plannerKey = "dailyplanner";
     let planner = {
-        
+
         timeBlocks: [],
         prevSave: ""
 
@@ -64,7 +64,7 @@ $(document).ready(function (event) {
     function clearBtn() {
         const row = $(`<div class="row clearBtn justify-content-md-center">`);
             $(row).append(`<div class="col-8 justify-content-md-center">`);
-            $(row).append(`<button class="col-6 btn clearBtn btn-danger justify-content-md-center">Clear All</button>`);
+            $(row).append(`<button class="col-6 btn clearBtn btn-danger justify-content-md-center">Clear All TODOs</button>`);
         $(".container").append(row);
   }
     $(".clearBtn").on("click", function () {
